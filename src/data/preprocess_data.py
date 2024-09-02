@@ -1,13 +1,14 @@
 import pandas as pd
 
 
-# Convertendo os valores do conjunto de dados convertidos para números inteiros
+# Convertendo os valores do conjunto de dados convertidos para números inteiros (Mapeamento)
 def preprocess_data(df):
     df['Channel'] = df['Channel'].replace({'HoReCa': 0, 'Retail': 1})
     df['Region'] = df['Region'].replace({'Lisbon': 0, 'Oporto': 1, 'Other': 2})
 
-    df = df[['Region', 'Fresh', 'Milk', 'Grocery', 'Frozen',
-             'Detergents_Paper', 'Delicatessen', 'Channel']]
+    ordered_columns = ['Region', 'Fresh', 'Milk', 'Grocery',
+                       'Frozen', 'Detergents_Paper', 'Delicatessen', 'Channel']
+    df = df.reindex(columns=ordered_columns)
 
     return df
 
