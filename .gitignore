@@ -1,5 +1,3 @@
-data/raw/
-models/
 *.ipynb_checkpoints
 venv/
 .env/
