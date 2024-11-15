@@ -28,7 +28,7 @@ def processing_data(input_data, output_data):
     try:
         data = load_data(input_data)
     except FileNotFoundError:
-        return print(f"Erro: O arquivo '{input_file_path}' não foi encontrado.")
+        return print(f"Erro: O arquivo '{input_data}' não foi encontrado.")
     except pd.errors.EmptyDataError:
         return print("Erro: O arquivo está vazio.")
     except pd.errors.ParserError:
