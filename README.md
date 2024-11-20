@@ -1,2 +1,14 @@
-# AG002_2024
- Atividade Complementar - AG002
+# Projeto AG002 - Inatel
+
+Este é o projeto da disciplina **AG002** do **Inatel**, que tem como objetivo realizar o pré-processamento, análise e classificação de dados de vendas utilizando Python e bibliotecas como **Pandas** e **Scikit-learn**.
+
+## Objetivo
+
+Prever o canal de vendas (*HoReCa* ou *Retail*) com base nos atributos fornecidos em um conjunto de dados de vendas.
+
+## Principais Funcionalidades
+
+- **Pré-processamento**: Conversão e organização dos dados.
+- **Divisão de Dados**: Separação em conjuntos de treino e teste.
+- **Treinamento de Modelo**: Modelo de árvore de decisão para classificação.
+- **Predições**: Testes interativos e automáticos para validação.
