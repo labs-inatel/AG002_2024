@@ -1,6 +1,6 @@
 # Projeto AG002 - Inatel
 
-Este é o projeto da disciplina **AG002** do **Inatel**, que tem como objetivo realizar o pré-processamento, análise e classificação de dados de vendas utilizando Python e bibliotecas como **Pandas** e **Scikit-learn**.
+Repositório referente ao projeto da disciplina **AG002** do **Instituto Nacional de Telecomunicações (Inatel)**, que tem como objetivo realizar o pré-processamento, análise e classificação de dados de vendas utilizando Python e bibliotecas como **Pandas** e **Scikit-learn**.
 
 ## Objetivo
 
